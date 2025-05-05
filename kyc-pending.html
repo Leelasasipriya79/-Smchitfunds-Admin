@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>  
+    <meta charset="utf-8">
+    <title> Sm Chitfund- Admin & Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+    <meta content="Themesbrand" name="author">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <link href="assets/libs/chartist/chartist.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css">
+
+      
+          
+        
+</head>
+
+
+<body data-sidebar>
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex align-items-center">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box" style="margin-right: auto; padding-left: 15px;">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo.jpg" alt="SM Chitfund" height="70" style="margin-left: -10px;">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo.jpg" alt="SM Chitfund" height="70" style="margin-left: -10px; ">
+                            </span>
+                        </a>
+                    </div>
+        
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="vertical-menu">
+            <div data-simplebar class="h-100">
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="fas fa-tachometer-alt me-2"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="edit-password.html" class="waves-effect">
+                                <i class="fas fa-key me-2"></i>
+                                <span>Edit Password</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="user.html" class="waves-effect">
+                                <i class="fas fa-id-card me-2"></i>
+                                <span>User Details</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-users-cog me-2"></i>
+                                <span>User Management</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="view-member.html">View Member</a></li>
+                                <li><a href="search-member.html">Search Member</a></li>
+                                <li><a href="activation-history.html">Activation History</a></li>
+                                <li><a href="online-payment-status.html">Online Payment Status</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="chit-name-amount.html" class="waves-effect">
+                                <i class="fas fa-receipt me-2"></i>
+                                <span>Chits Name & Amount</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-id-badge me-2"></i>
+                                <span>KYC</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="kyc-pending.html">KYC Pending</a></li>
+                                <li><a href="kyc-history.html">KYC History</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-user-tie me-2"></i>
+                                <span>Agents</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="earninghistory.html">Earning History of Agents</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-exchange-alt me-2"></i>
+                                <span>Fund Manager</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="fund-transfer.html">Fund Transfer</a></li>
+                                <li><a href="fund-transfer-history.html">Fund Transfer History</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-credit-card me-2"></i>
+                                <span>Payouts</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="payout-request.html">Payout Requests</a></li>
+                                <li><a href="payout-history.html">Payout History</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-university me-2"></i>
+                                <span>Withdraw</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="wallet-withdraw-status.html">Wallet Withdraw Status</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-sitemap me-2"></i>
+                                <span>Team</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="my-direct.html">My Direct</a></li>
+                                <li><a href="my-downline.html">My Downline</a></li>
+                                <li><a href="level-team.html">Level Team</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-coins me-2"></i>
+                                <span>Income</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="referral-income.html">Referral Income</a></li>
+                                <li><a href="level-income.html">Level Income</a></li>
+                                <li><a href="level-income-on-roi.html">Level Income On ROI</a></li>
+                                <li><a href="rank-reward-income.html">Rank & Reward Income</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-wallet me-2"></i>
+                                <span>Wallet</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="wallet-statement.html">Wallet Statement</a></li>
+                                <li><a href="wallet-outstanding.html">Wallet Outstanding</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow waves-effect">
+                                <i class="fas fa-tools me-2"></i>
+                                <span>Setting</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="popup-update.html">Pop-Up Setting</a></li>
+                                <li><a href="stop-roi.html">Stop ROI</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="qr.html" class="waves-effect">
+                                <i class="fas fa-qrcode me-2"></i>
+                                <span>QR Code</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="notification.html" class="waves-effect">
+                                <i class="fas fa-bell me-2"></i>
+                                <span>Notification</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="waves-effect">
+                                <i class="fas fa-sign-out-alt me-2"></i>
+                                <span>Signout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Sidebar -->
+            </div>
+        </div>
+       <!-- Main Content -->
+    <div class="main-content">
+    
+            <div class="page-content">
+                <div class="container-fluid">
+          <!-- Pending KYC Section -->
+          <h2 class="text-2xl font-bold mb-4 text-black">Pending KYC</h2>
+          <div class="search-bar">
+            <input type="text" placeholder="ID Number" id="kyc-id-search">
+            <input type="date" id="kyc-start-date" placeholder="mm/dd/yyyy">
+            <input type="date" id="kyc-end-date" placeholder="mm/dd/yyyy">
+            <button onclick="searchKyc()">Search</button>
+          </div>
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th class="name-column">Name</th>
+                  <th class="status-column">Status</th>
+                  <th>Date</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="kyc-table">
+                <tr>
+                  <td>125</td>
+                  <td class="name-column">Alice Brown</td>
+                  <td class="status-pending status-column">Pending</td>
+                  <td class="date-column">Apr 29, 2025</td>
+                  <td>
+                    <div class="action-buttons">
+                      <button class="btn-accept" data-id="125" onclick="handleKycAction('125', 'Approved', this)">Accept</button>
+                      <button class="btn-reject" data-id="125" onclick="handleKycAction('125', 'Rejected', this)">Reject</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>127</td>
+                  <td class="name-column">Charlie Davis</td>
+                  <td class="status-pending status-column">Pending</td>
+                  <td class="date-column">May 02, 2025</td>
+                  <td>
+                    <div class="action-buttons">
+                      <button class="btn-accept" data-id="127" onclick="handleKycAction('127', 'Approved', this)">Accept</button>
+                      <button class="btn-reject" data-id="127" onclick="handleKycAction('127', 'Rejected', this)">Reject</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+  
+      
+      
+           
+
+        <div class="rightbar-overlay"></div>
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+    
+        <!-- Peity chart-->
+        <script src="assets/libs/peity/jquery.peity.min.js"></script>
+    
+        <!-- Plugin Js-->
+        <script src="assets/libs/chartist/chartist.min.js"></script>
+        <script src="assets/libs/chartist-plugin-tooltips/chartist-plugin-tooltip.min.js"></script>
+    
+        <script src="assets/js/pages/dashboard.init.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script>
+        // Mock data for Pending KYC
+        const mockData = [
+          { id: '125', name: 'Alice Brown', status: 'Pending', date: '2025-04-29', actionTaken: false },
+          { id: '127', name: 'Charlie Davis', status: 'Pending', date: '2025-05-02', actionTaken: false },
+        ];
+  
+        // Function to format dates as "MMM DD, YYYY"
+        function formatDate(dateStr) {
+          const date = new Date(dateStr);
+          const options = { year: 'numeric', month: 'short', day: '2-digit' };
+          return date.toLocaleDateString('en-US', options).replace(/(\d+),/, '$1,');
+        }
+  
+        // Handle KYC Action (Accept/Reject)
+        window.handleKycAction = (id, newStatus, button) => {
+          const entry = mockData.find(item => item.id === id);
+          if (entry && !entry.actionTaken) {
+            entry.status = newStatus;
+            entry.actionTaken = true;
+            // Disable both buttons in the same row
+            const row = button.closest('tr');
+            const buttons = row.querySelectorAll('.btn-accept, .btn-reject');
+            buttons.forEach(btn => btn.disabled = true);
+            // Update the table
+            renderKycTable(mockData);
+          }
+        };
+  
+        // KYC Functions
+        window.searchKyc = () => {
+          const id = document.getElementById('kyc-id-search').value;
+          const startDate = document.getElementById('kyc-start-date').value;
+          const endDate = document.getElementById('kyc-end-date').value;
+          let filtered = mockData;
+          if (id) filtered = filtered.filter(item => item.id.includes(id));
+          if (startDate) filtered = filtered.filter(item => item.date >= startDate);
+          if (endDate) filtered = filtered.filter(item => item.date <= endDate);
+          renderKycTable(filtered);
+        };
+  
+        function renderKycTable(data = mockData) {
+          const tbody = document.getElementById('kyc-table');
+          tbody.innerHTML = data.map(item => `
+            <tr>
+              <td>${item.id}</td>
+              <td class="name-column">${item.name}</td>
+              <td class="status-pending status-column">${item.status}</td>
+              <td class="date-column">${formatDate(item.date)}</td>
+              <td>
+                <div class="action-buttons">
+                  <button class="btn-accept" data-id="${item.id}" onclick="handleKycAction('${item.id}', 'Approved', this)" ${item.actionTaken ? 'disabled' : ''}>Accept</button>
+                  <button class="btn-reject" data-id="${item.id}" onclick="handleKycAction('${item.id}', 'Rejected', this)" ${item.actionTaken ? 'disabled' : ''}>Reject</button>
+                </div>
+              </td>
+            </tr>
+          `).join('');
+        }
+  
+        // Initial render
+        renderKycTable();
+      
+     </script>
+</body>
+</html>
